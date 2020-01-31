@@ -1,0 +1,53 @@
+h2{
+
+background-color: pink;
+}
+
+
+
+header{
+  background-color: red;
+  height: 100px;
+  width: 500px;
+}
+nav{
+  background-color: green;
+  height: 100px;
+  width: 600px;
+
+}
+
+main{
+
+  background-color: pink;
+  height: 500px;
+  width: 400px;
+
+
+}
+
+aside{
+  background-color: blue;
+  height: 500px;
+  width: 100px;
+}
+
+footer{
+  background-color: yellow;
+  height: 500px;
+  width: 400px;
+}
+
+#mainwrapper{
+  display:flex;
+
+
+}
+
+#wrapper{
+  width: 600px;
+  margin-left:  auto;
+  margin-right: auto;
+
+
+}
