@@ -1,53 +1,85 @@
+
 h2{
 
-background-color: pink;
+  background-color: #ccebff;
 }
-
-
 
 header{
-  background-color: red;
+  background-color: grey;
   height: 100px;
-  width: 500px;
+  width: 100%;
 }
 nav{
-  background-color: green;
-  height: 100px;
-  width: 600px;
-
+    background-color: grey;
+  height: 50px;
+  width: 100%;
 }
-
 main{
-
-  background-color: pink;
-  height: 500px;
-  width: 400px;
-
-
+    background-color: grey;
+  height: 400px;
+  width: 70%;
 }
-
 aside{
-  background-color: blue;
-  height: 500px;
-  width: 100px;
-}
+  background-color: grey;
+height: 400px;
+width: 30%;
 
+
+}
 footer{
-  background-color: yellow;
-  height: 500px;
-  width: 400px;
+  background-color: grey;
+  height: 50px;
+  width: 100%;
 }
 
 #mainwrapper{
   display:flex;
 
+}
+#wrapper{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#boxwrapper{
+  height:50%;
+  width: 100%;
+  background-color: grey;
+  display:flex;
+}
+#bottomcenter{
+  height:50%;
+  width: 100%;
+  background-color: grey;
+}
+#boxleft{
+  height:100%;
+  width: 50%;
+  background-color: grey;
+}
+#boxright{
+  height:100%;
+  width: 50%;
+  background-color: grey;
+
 
 }
 
-#wrapper{
-  width: 600px;
-  margin-left:  auto;
-  margin-right: auto;
 
+
+@media only screen and (max-width: 600px) {
+
+  #mainwrapper{
+    display:flex;
+    flex-direction: column;
+
+  }
+  main{
+    width: 100%;
+  }
+  aside{
+    width:100%;
+  }
 
 }

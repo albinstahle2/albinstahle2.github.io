@@ -1,53 +1,78 @@
 
 <! DOCTYPE html>
-<html lang="en" dir="ltr"
-  <head>
- <link rel="stylesheet" href="css/master.css">
-<meta charset="utf-8">
-<title>Stahles </title>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="css/master.css">
+  <meta charset="utf-8">
+  <title> Albin Stahle´s sida </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
- </head>
+<body>
 
-  <body>
-
-Albin testar köttfärsås
-<div id="wrapper">
-
-
-        <header>
-
-        header
-
-        </header>
-
-        <nav>
-        <a href="https://www.youtube.com/?hl=sv&gl=SE"
-youtube
-        </nav>
+  <div id="wrapper">
 
 
-        <div id="mainwrapper">
+    <header>
+      header
+    </header>
+    <nav>
+      <a href="index.html">start sidan</a>
+      <a href="chassie.html">chassie</a>
+      <a href="cpu.html">cpu</a>
+      <a href="gpu.html">grafikkort</a>
+      <a href="ram.html">ramminne</a>
+      <a href="nätaggregat.html">nätaggregat</a>
+    </nav>
 
-              <main>
-                main
-      <img src="img/bild.jpg" alt="fin bild">
+    <div id="mainwrapper">
+      <main>
 
+        <div id="boxwrapper">
 
-              </main>
-              <aside class="">
-                aside
-              </aside>
+          <div id="boxleft">
+
+          </div>
+          <div id="boxright">
+
+          </div>
+
+        </div>
+        <div id="bottomcenter">
 
         </div>
 
 
-        <footer>
-        footer
-        </footer>
 
 
-</div>
+      </main>
+      <aside class="">
+
+      </aside>
+    </div>
+    <footer>
+      footer
+    </footer>
+
+  </div>
 
 
-  </body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+$("#boxleft").click(function(){
+    //console.log("hej");
+   //$("#boxleft").css("background-color","lightgreen")
+  $("#boxright").toggle( "slow", function() {
+  //animation complete-.
+
+});
+
+
+</script>
+
+</body>
 </html>
